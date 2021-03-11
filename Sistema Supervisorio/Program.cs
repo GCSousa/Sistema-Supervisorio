@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Modelo_Supervisorio;
+using Entidades_supervisorio;
 
-namespace Sistema_Supervisorio
+namespace Vizualizacao_Supervisorio
 {
-    static class Program
+    static class Vizualizacao
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -18,6 +20,7 @@ namespace Sistema_Supervisorio
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmEntrada());
+            Application.Run(new frmLista());
         }
     }
 }

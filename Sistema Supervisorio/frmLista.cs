@@ -11,10 +11,9 @@ using Vizualizacao_Supervisorio;
 
 namespace Vizualizacao_Supervisorio
 {
-    public partial class 
-        frmEntrada : Form
+    public partial class frmLista : Form
     {
-        public frmEntrada()
+        public frmLista()
         {
             InitializeComponent();
         }
